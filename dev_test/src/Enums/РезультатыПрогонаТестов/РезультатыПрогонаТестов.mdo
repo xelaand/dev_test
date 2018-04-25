@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7348da94-fcee-43fb-b306-cd823d98b988">
+  <producedTypes>
+    <refType typeId="b44191a9-17d7-46b5-9f49-927b2ed49185" valueTypeId="e321f6c2-c2b6-478f-9229-0e3f6140d266">
+      <emptyRef/>
+    </refType>
+    <listType typeId="863cdb7a-f001-4d1c-a8db-b31a7bff5783" valueTypeId="b3925432-adc9-4c33-b160-f0eff523237a"/>
+    <managerType typeId="ebbbe30f-52db-477a-843c-5a77b87f9bc8" valueTypeId="2fe6d367-76e3-4ba9-b86b-fc782d9bc8d0"/>
+  </producedTypes>
+  <name>РезультатыПрогонаТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты прогона тестов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="43f7306c-f183-4d7a-bf28-e6b01aeba314">
+    <name>Пройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пройден</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f2aa21c8-c8c0-4b29-a962-7c53dfc602b9">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="418ee5c9-6506-4e50-b8c4-f71ea01d405d">
+  <producedTypes>
+    <objectType typeId="20a05e2e-9d1f-47ce-bb0f-bca6f615ac22" valueTypeId="37353986-3d73-47c6-990f-ca601741b726"/>
+    <refType typeId="ccaea6b4-b332-4de5-9922-f777b0db8a7f" valueTypeId="38fa3980-ecea-46d8-a532-d855697f1ea6">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="ea15c824-abce-470e-9a34-9e56c9fd51d3" valueTypeId="7ad7d1af-7112-447b-b309-4e578bf39ec4"/>
+    <listType typeId="635d59b6-cdfc-4bb1-92f4-bc7cc7755002" valueTypeId="3005be66-3b7d-4440-936f-a19eb0127b42"/>
+    <managerType typeId="e3fdb9c6-2bb1-43e2-af0d-bf707727c058" valueTypeId="f02617cc-9fd7-407c-9549-eb13af9b3858"/>
+  </producedTypes>
+  <name>ПрогонТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогон тестов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПрогонТестов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПрогонТестов.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6285ad26-6c38-4af5-bc16-1c7e741320b1">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Created by</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb20225b-0ea0-4f35-9190-730ab8af46af">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Продукты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="720bb160-385b-4256-aec4-c385b352db65">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииПродуктов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Код</name>
+      <field>Document.ПрогонТестов.Attribute.Продукт</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31a5ab52-f576-41e6-a8ae-4cc045ccf920">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56072b10-4aa1-4519-bdb2-30d3e6700eab">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="de2c6a42-69a1-4e88-abb5-6840ac0d9cb4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="89181162-4c15-42db-8106-6675acfae3cf">
+    <producedTypes>
+      <objectType typeId="6ab955f6-49bd-4175-aa20-61e265b1b99f" valueTypeId="71340c3c-98ff-4374-ace0-cf55762584ea"/>
+      <rowType typeId="8bb5a5f9-9092-4d01-bf62-8a012690bf81" valueTypeId="c7464801-2ddb-4abd-8d86-e19ce1c9ed0c"/>
+    </producedTypes>
+    <name>Сценарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарии</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="640218f1-50e0-4bb7-a0f8-b48b60785f76">
+      <name>Сценарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сценарий</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВерсииСценариевТестирования</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="af11b588-da88-447c-8a35-d22bbfdfa7a9">
+    <producedTypes>
+      <objectType typeId="5b56edd1-5345-4840-ad9f-f11edee198e8" valueTypeId="fd53b404-979c-4ba4-bb42-55ed46752356"/>
+      <rowType typeId="24e89d90-7298-4979-960b-103234ea8835" valueTypeId="945e14f3-44c8-4957-bc64-1fb438639bfc"/>
+    </producedTypes>
+    <name>Результаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="f4910092-8b55-4b5c-9f8e-c8b1d7910b14">
+      <name>Сценарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сценарий</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВерсииСценариевТестирования</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ae24345-c125-487c-be52-0cd477c38315">
+      <name>Шаг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаг</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4a8aebd9-6bc1-4de5-993d-5e09a936dfd1">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.РезультатыПрогонаТестов</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="98f62500-f25b-4f82-b736-c4e17277625f">
+      <name>ОписаниеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание ошибки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3853010a-ae85-4ffd-87fa-2526e67bb4e9">
+      <name>НомерЗаявки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер заявки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

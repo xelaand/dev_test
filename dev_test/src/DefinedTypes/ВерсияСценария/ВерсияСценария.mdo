@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f84cb069-3285-45f5-8de9-2ef5bd079651">
+  <producedTypes>
+    <containerType typeId="518e74e7-37cd-47bd-b5a3-7a33875a746e" valueTypeId="a28f9d1e-f5ca-4044-84db-c08b2749039e"/>
+  </producedTypes>
+  <name>ВерсияСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия сценария</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.ВерсииСценариевТестирования</types>
+  </type>
+</mdclass:DefinedType>

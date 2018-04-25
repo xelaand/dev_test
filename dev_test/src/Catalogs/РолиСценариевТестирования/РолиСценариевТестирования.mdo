@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="827324ec-8189-4d46-a640-d4de1cc5a62a">
+  <producedTypes>
+    <objectType typeId="93ae9942-a73e-4cc3-9420-694832294bc4" valueTypeId="9079d6a7-5b2c-4576-9add-4b8475f3e50f"/>
+    <refType typeId="6cd5dfaf-db7d-41bf-9751-019098834661" valueTypeId="1414e7b8-2cf4-45fd-b2ea-62100ad1ca60">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="f6c40d44-d43e-4146-bfdc-b8962ca6977d" valueTypeId="722faf58-a3aa-44cd-ac1f-3488ce7abb62"/>
+    <listType typeId="f48b1894-420b-4104-bb0e-cac4ff5f1038" valueTypeId="da2ce6e3-ede7-489a-a190-17579dfe5893"/>
+    <managerType typeId="268c9e52-88fe-4a1d-b054-4136c12ecc7a" valueTypeId="482731e9-2ec4-40bf-b4dc-181b1fbc1bfa"/>
+  </producedTypes>
+  <name>РолиСценариевТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли сценариев тестирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиСценариевТестирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиСценариевТестирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

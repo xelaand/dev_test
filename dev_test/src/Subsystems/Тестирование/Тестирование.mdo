@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88094d5f-2a2f-4680-88b8-d7d3d882c2fe">
+  <name>Тестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.Тестировщик</content>
+  <content>Catalog.Продукты</content>
+  <content>Catalog.РолиСценариевТестирования</content>
+  <content>Catalog.СценарииТестирования</content>
+  <content>Catalog.ВерсииПродуктов</content>
+  <content>Document.ПрогонТестов</content>
+  <content>Enum.СтатусыСценариевТестирования</content>
+  <content>Enum.РезультатыПрогонаТестов</content>
+  <content>DefinedType.ВерсияСценария</content>
+  <content>Catalog.ВерсииСценариевТестирования</content>
+</mdclass:Subsystem>

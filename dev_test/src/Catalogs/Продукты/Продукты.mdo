@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37410675-866a-40bc-8436-0edb95b568e1">
+  <producedTypes>
+    <objectType typeId="ba7967ec-c1ff-4c1c-9d9e-92bf3f7a287f" valueTypeId="ba7d6b08-58c6-4f3c-ab0f-8e2af317cc31"/>
+    <refType typeId="246b6fb9-dbd7-4991-ada7-b0eda864a5ad" valueTypeId="e95970ac-ca2f-490c-9d2b-810d0635a4aa">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="e8467609-c26c-475a-bd7c-53c01cc33251" valueTypeId="50b40e62-e8e7-4436-8a1b-ec5a95af5320"/>
+    <listType typeId="c7977435-b7f3-45ed-8d23-fc5fd2346b43" valueTypeId="626f42e1-825a-4bd7-a3c0-5d8bbc76d061"/>
+    <managerType typeId="77e89148-6f51-4893-a24e-e59ebdf54b0b" valueTypeId="0ed1d9de-2d26-45da-9178-e6d87cd7652b"/>
+  </producedTypes>
+  <name>Продукты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Products</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Продукты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Продукты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Product</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Продукты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Продукты.Form.Список</defaultListForm>
+  <defaultChoiceForm>Catalog.Продукты.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="dbb872df-343e-47a1-95e4-a87c49d3c6f0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb17a7db-5fe4-4505-8801-fd174b7bd12e">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ed77a1f-d8ad-4573-b23c-85cc33e2dc97">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
